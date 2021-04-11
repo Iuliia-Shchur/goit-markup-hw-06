@@ -307,6 +307,16 @@ img {
   background-color: var(--address-color);
 }
 
+/* Modal form */
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+
+
 /* Features */
 .grid {
   display: flex;
