@@ -416,6 +416,10 @@ img {
   outline: var(--primary-logo-color);
 }
 
+.agreement-checkbox {
+  appearance: none;
+}
+
 /* Features */
 .grid {
   display: flex;

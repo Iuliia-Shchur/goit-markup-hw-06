@@ -96,10 +96,19 @@
                         <textarea class="form-input form-textarea" name="comment" id="user-comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                         </div>
                         
-                        <div class="form-field-agreement">
-                        <input type="checkbox" name="agree" id="user-agreement">
-                        <label class="form-agreement" for="user-agreement">Соглашаюсь с рассылкой и принимаю <span><a class="form-agreement-contract" href="">Условия договора</a></span></label>
-                        </div>  
+                        <div class="form-field-agreement">                       
+                        <label class="form-agreement">
+                        <input class="agreement-checkbox" type="checkbox" name="agree">
+                            <svg class="agreement-checkbox-icon-first" width="11" height="8">
+                                <use href="../img/sprite/icons.svg#icon-checkbox"></use>
+                            </svg>    
+
+                            <svg class="agreement-checkbox-icon-second" width="11" height="8">
+                                <use href="../img/sprite/icons.svg#icon-check"></use>
+                            </svg>
+                            Соглашаюсь с рассылкой и принимаю <span><a class="form-agreement-contract" href="">Условия договора</a></span>
+                        </label>
+                    </div>  
                         
                         </form>
 
