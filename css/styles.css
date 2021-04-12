@@ -431,7 +431,7 @@ img {
   appearance: none;
 }
 
-.agreement-checkbox-icon {
+.form-field-agreement .agreement-checkbox-icon {
   width: 16px;
   height: 15px;
   margin-right: 7px;
