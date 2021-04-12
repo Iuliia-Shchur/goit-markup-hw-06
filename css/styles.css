@@ -338,6 +338,7 @@ img {
 .form-input {
   width: 448px;
   height: 40px;
+  padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -388,6 +389,10 @@ img {
 
 .form-agreement-contract {
   color: var(--primary-logo-color);
+}
+
+.form-input:focus + .form-input-icon {
+  fill: var(--primary-logo-color);
 }
 
 /* Features */
