@@ -305,6 +305,15 @@ img {
   border-radius: 50%;
 
   background-color: var(--address-color);
+  cursor: pointer;
+}
+
+.modal-close-icon {
+  fill: var(--secondary-logo-color);
+}
+
+.modal-close-btn:hover .modal-close-icon {
+  fill: var(--primary-logo-color);
 }
 
 /* Modal form */
@@ -341,6 +350,7 @@ img {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .modal-form .form-textarea {
@@ -391,8 +401,19 @@ img {
   color: var(--primary-logo-color);
 }
 
+.form-input:hover,
+.form-input:focus {
+  border-color: var(--primary-logo-color);
+  /* outline: var(--primary-logo-color); */
+}
+
+.form-input:hover + .form-input-icon,
 .form-input:focus + .form-input-icon {
   fill: var(--primary-logo-color);
+}
+
+.form-input:focus-within {
+  outline: var(--primary-logo-color);
 }
 
 /* Features */
