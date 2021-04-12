@@ -410,7 +410,7 @@ img {
 .form-input:hover,
 .form-input:focus {
   border-color: var(--primary-logo-color);
-  /* outline: var(--primary-logo-color); */
+  outline: var(--primary-logo-color);
 }
 
 .form-input:hover + .form-input-icon,
@@ -418,9 +418,9 @@ img {
   fill: var(--primary-logo-color);
 }
 
-.form-input:focus-within {
+/* .form-input:focus-within {
   outline: var(--primary-logo-color);
-}
+} */
 
 .agreement-checkbox {
   appearance: none;
