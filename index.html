@@ -65,23 +65,34 @@
 
                     <form>
                         <div class="modal-form" role="group" arial-labelby="contact-details">
-                        <p id="contact-details">Оставьте свои данные, мы вам перезвоним</p>
-                        <label for="username">Имя</label>
+                        <p class="modal-form-title" id="contact-details">Оставьте свои данные, мы вам перезвоним</p>
+                        <label class="form-label" for="username">Имя</label>
                         
-                        <input type="text" name="name" id="username">
-                        <svg width="18" height="18">
+                        <input class="form-input" type="text" name="name" id="username">
+                        <svg class="form-input-icon" width="18" height="18">
                             <use href="../img/sprite/icons.svg#icon-person-black"></use>
                         </svg>
                        
 
-                        <label for="user-telephone">Телефон</label>
-                        <input type="tel" name="telephone" id="user-telephone">
+                        <label class="form-label" for="user-telephone">Телефон</label>
+                        <input class="form-input" type="tel" name="telephone" id="user-telephone">
+                        <svg class="form-input-icon" width="18" height="18">
+                            <use href="../img/sprite/icons.svg#icon-phone-black"></use>
+                        </svg>
 
-                        <label for="user-email">Почта</label>
-                        <input type="email" name="email" id="user-email">
-                        <label for="user-comment">Комментарий</label>
-                        <textarea name="comment" id="user-comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                        <label class="form-label" for="user-email">Почта</label>
+                        <input class="form-input" type="email" name="email" id="user-email">
+                        <svg class="form-input-icon" width="18" height="18">
+                            <use href="../img/sprite/icons.svg#icon-email-black"></use>
+                        </svg>
+
+                        <label class="form-label" for="user-comment">Комментарий</label>
+                        <textarea class="form-input form-textarea" name="comment" id="user-comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                         </div>
+
+                        <input type="checkbox" name="agree" id="user-agreement">
+                        <label for="user-agreement">Соглашаюсь с рассылкой и принимаю <span><a href="">Условия договора</a></span></label>
+                        
                     </form>
                 </div>
             </div>
