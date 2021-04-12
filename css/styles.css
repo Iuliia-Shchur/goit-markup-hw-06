@@ -401,6 +401,7 @@ img {
 
 .form-agreement {
   display: flex;
+  justify-content: center;
   align-items: center;
   line-height: 1.71;
   color: var(--secondary-text-color);
